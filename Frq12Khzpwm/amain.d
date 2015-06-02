@@ -1,0 +1,1 @@
+amain.o: amain.c

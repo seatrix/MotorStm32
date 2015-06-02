@@ -1,0 +1,133 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+E:\Project\sf\code\Frq12khz\Frq12Khzpwm\12Khz.uvproj
+Project File Date:  06/02/2015
+
+<h2>Output:</h2>
+Build target 'Target 1'
+linking...
+Program Size: Code=6364 RO-data=848 RW-data=96 ZI-data=472  
+FromELF: creating hex file...
+".\obj\wateralarm.axf" - 0 Error(s), 0 Warning(s).
+</pre>
+</body>
+</html>
+f file ends without a newline
+  void Led(u8 val);
+HexString.h(20): warning:  #1-D: last line of file ends without a newline
+  u16 Byte22Uint(u8 * ByteIN);
+Weightdo.h(6): warning:  #1295-D: Deprecated declaration wd_init - give arg types
+  void wd_init();
+TM7711.h(7): warning:  #1295-D: Deprecated declaration TM7711_init - give arg types
+   void TM7711_init();
+TM7711.h(9): warning:  #1-D: last line of file ends without a newline
+  #endif
+Wmeasure.h(1): warning:  #1295-D: Deprecated declaration MeasurePoll - give arg types
+  void MeasurePoll();
+Wmeasure.h(2): warning:  #1-D: last line of file ends without a newline
+  void MeasurePoll_init();
+Wmeasure.h(2): warning:  #1295-D: Deprecated declaration MeasurePoll_init - give arg types
+  void MeasurePoll_init();
+main.c(103): warning:  #223-D: function "MBRTU_ini" declared implicitly
+      MBRTU_ini(0x01);
+main.c(115): warning:  #223-D: function "MBRTUPoll" declared implicitly
+          MBRTUPoll();
+main.c: 11 warnings, 0 errors
+linking...
+Program Size: Code=6364 RO-data=848 RW-data=96 ZI-data=472  
+FromELF: creating hex file...
+".\obj\wateralarm.axf" - 0 Error(s), 11 Warning(s).
+odbus\GXDmodbus.h(15): warning:  #1295-D: Deprecated declaration IRQ_xMBRTUTimerT35Expired - give arg types
+  void IRQ_xMBRTUTimerT35Expired();
+modbus\GXDmodbus.h(17): warning:  #1295-D: Deprecated declaration MBRTUPoll - give arg types
+  void MBRTUPoll();
+modbus\GXDmodbus.h(26): warning:  #1-D: last line of file ends without a newline
+  extern  volatile unsigned char usRcvBufferPos;
+modbus\GXDmodbusEx.h(1): warning:  #1295-D: Deprecated declaration vMBPortTimersDisable - give arg types
+  void vMBPortTimersDisable();
+modbus\GXDmodbusEx.h(2): warning:  #1295-D: Deprecated declaration vMBPortTimersEnable - give arg types
+  void vMBPortTimersEnable();
+modbus\GXDmodbusEx.h(3): warning:  #1295-D: Deprecated declaration MBCallback - give arg types
+  void MBCallback();
+modbus\GXDmodbusEx.h(14): warning:  #1-D: last line of file ends without a newline
+  extern char RegsterModfied;
+.\TimerDevc.h(4): warning:  #1-D: last line of file ends without a newline
+  void TIM3_Start(unsigned char EnableTIM) ;
+modbus\GXDmodbusEx.c(46): warning:  #117-D: non-void function "Bytes2Ushort" should return a value
+      return ;
+modbus\GXDmodbusEx.c(94): warning:  #186-D: pointless comparison of unsigned integer with zero
+              if(StartRegaddr>=REG_HOLDING_NREGS_Start &&
+modbus\GXDmodbusEx.c(120): warning:  #186-D: pointless comparison of unsigned integer with zero
+              if(StartRegaddr>=REG_HOLDING_NREGS_Start &&
+modbus\GXDmodbusEx.c(133): warning:  #167-D: argument of type "volatile unsigned char *" is incompatible with parameter of type "unsigned char *"
+                  Buf2Regster(&ucRTUBuf[7],StartRegaddr,RegLength);
+modbus\GXDmodbusEx.c(82): warning:  #177-D: variable "val" was declared but never referenced
+      unsigned short RegLength,val;
+modbus\GXDmodbusEx.c(83): warning:  #177-D: variable "i" was declared but never referenced
+      unsigned char i;
+modbus\GXDmodbusEx.c: 14 warnings, 0 errors
+".\obj\wateralarm.axf" - 1 Error(s), 22 Warning(s).
+Target not created
+modbusEx.h(1): warning:  #1295-D: Deprecated declaration vMBPortTimersDisable - give arg types
+  void vMBPortTimersDisable();
+.\modbus\GXDmodbusEx.h(2): warning:  #1295-D: Deprecated declaration vMBPortTimersEnable - give arg types
+  void vMBPortTimersEnable();
+.\modbus\GXDmodbusEx.h(3): warning:  #1295-D: Deprecated declaration MBCallback - give arg types
+  void MBCallback();
+.\modbus\GXDmodbusEx.h(14): warning:  #1-D: last line of file ends without a newline
+  extern char RegsterModfied;
+Weightdo.h(6): warning:  #1295-D: Deprecated declaration wd_init - give arg types
+  void wd_init();
+TM7711.h(7): warning:  #1295-D: Deprecated declaration TM7711_init - give arg types
+   void TM7711_init();
+TM7711.h(9): warning:  #1-D: last line of file ends without a newline
+  #endif
+Wmeasure.h(1): warning:  #1295-D: Deprecated declaration MeasurePoll - give arg types
+  void MeasurePoll();
+Wmeasure.h(2): warning:  #1-D: last line of file ends without a newline
+  void MeasurePoll_init();
+Wmeasure.h(2): warning:  #1295-D: Deprecated declaration MeasurePoll_init - give arg types
+  void MeasurePoll_init();
+Wmeasure.c(56): warning:  #177-D: variable "i" was declared but never referenced
+      char i;
+Wmeasure.c(133): warning:  #1-D: last line of file ends without a newline
+  }
+Wmeasure.c: 12 warnings, 0 errors
+compiling TM7711.c...
+TM7711.h(7): warning:  #1295-D: Deprecated declaration TM7711_init - give arg types
+   void TM7711_init();
+TM7711.h(9): warning:  #1-D: last line of file ends without a newline
+  #endif
+TM7711.c(82): warning:  #1-D: last line of file ends without a newline
+  }
+TM7711.c: 3 warnings, 0 errors
+compiling stm32f10x_crc.c...
+compiling stm32f10x_iwdg.c...
+compiling stm32f10x_dbgmcu.c...
+compiling stm32f10x_wwdg.c...
+compiling stm32f10x_exti.c...
+compiling misc.c...
+compiling stm32f10x_bkp.c...
+compiling stm32f10x_rtc.c...
+compiling stm32f10x_pwr.c...
+compiling stm32f10x_cec.c...
+compiling stm32f10x_dac.c...
+compiling stm32f10x_gpio.c...
+compiling stm32f10x_sdio.c...
+compiling stm32f10x_dma.c...
+compiling stm32f10x_spi.c...
+compiling stm32f10x_fsmc.c...
+compiling stm32f10x_usart.c...
+compiling stm32f10x_can.c...
+compiling stm32f10x_i2c.c...
+compiling stm32f10x_adc.c...
+compiling stm32f10x_rcc.c...
+compiling stm32f10x_flash.c...
+compiling stm32f10x_tim.c...
+compiling core_cm3.c...
+assembling startup_stm32f10x_hd.s...
+".\obj\wateralarm.axf" - 4 Error(s), 34 Warning(s).
+Target not created

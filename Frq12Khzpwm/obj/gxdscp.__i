@@ -1,0 +1,5 @@
+-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\CoreSupport -I.\STM32F10x_StdPeriph_Driver\inc -I.\ -I.\ff10a\src -I.\SDIO -I.\ff10a\src\option 
+-I C:\Keil\ARM\RV31\INC 
+-I C:\Keil\ARM\CMSIS\Include 
+-I C:\Keil\ARM\Inc\ST\STM32F10x 
+-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DUSE_STM3210E_EVAL -o ".\obj\gxdscp.o" --omf_browse ".\obj\gxdscp.crf" --depend ".\obj\gxdscp.d" "GxdSCP.c"

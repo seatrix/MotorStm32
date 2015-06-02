@@ -1,0 +1,19 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+D:\My\Prj\weight\weightMdbus\weightMdbus\wateralarm.uvproj
+Project File Date:  02/16/2015
+
+<h2>Output:</h2>
+Build target 'Target 1'
+linking...
+Program Size: Code=6336 RO-data=848 RW-data=96 ZI-data=472  
+FromELF: creating hex file...
+".\obj\wateralarm.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: Code=6336 RO-data=848 RW-data=96 ZI-data=472  
+FromELF: creating hex file...
+".\obj\wateralarm.axf" - 0 Error(s), 0 Warning(s).
